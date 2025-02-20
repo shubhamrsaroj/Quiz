@@ -1,99 +1,207 @@
-# Quiz Master - Interactive Learning Platform
+Interactive Quiz Platform
 
-## Overview
-Quiz Master is a modern, interactive quiz application built with React and Material-UI. It features multiple subjects, lifelines, coin rewards, and a progress tracking system.
+Overview
 
-## Features
+A modern, interactive quiz application built with React and Material-UI that tests users' knowledge in web development topics (HTML, CSS, and JavaScript). Features include lifelines, coin rewards, and progress tracking.
 
-### Core Features
-- 🎯 Multiple subject categories (Technology, Science, Mathematics, etc.)
-- 💰 Coin-based reward system
-- 🏆 Achievement tracking
-- 📊 Progress monitoring
-- 💾 Local storage for saving progress
+Features
 
-### Quiz Features
-- ⏱️ Timed questions
-- 🎯 Multiple choice questions
-- 💡 Lifelines:
-  - 50:50 - Eliminates two wrong answers
-  - Hint - Provides a clue for the current question
-  - Skip - Moves to the next question
+Core Functionality
 
-### Technical Features
-- 🎨 Modern UI with Material-UI
-- 📱 Fully responsive design
-- 🔄 Smooth animations with Framer Motion
-- 💾 IndexedDB for data persistence
-- 🎵 Sound effects and background music
+🎯 Multiple Subject Areas
 
-## Installation
+HTML
 
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/quiz-platform.git
-   ```
-2. Navigate to the project directory:
-   ```sh
-   cd quiz-platform
-   ```
-3. Install dependencies:
-   ```sh
-   npm install
-   ```
-4. Start the development server:
-   ```sh
-   npm run dev
-   ```
+CSS
 
-## Usage
+JavaScript
 
-### 1. Start Quiz
-   - Select a subject category
-   - Click "Start Quiz" to begin
+Quiz Features
 
-### 2. During Quiz
-   - Read the question carefully
-   - Use lifelines if needed
-   - Select your answer within the time limit
-   - Track your progress and coins
+⏱️ Timed Questions (30-second timer)
 
-### 3. Lifelines
-   - **50:50**: Eliminates two wrong answers
-   - **Hint**: Shows a helpful hint
-   - **Skip**: Moves to the next question
+💰 Coin Reward System
 
-### 4. Results
-   - View your score
-   - Check coins earned
-   - Review your performance
-   - Share your results
+🎯 Multiple Choice Questions
 
-## Technologies Used
-- React 18
-- Material-UI
-- Framer Motion
-- IndexedDB
-- Vite
+📊 Progress Tracking
 
-## Contributing
+Lifelines System
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+50:50 (Eliminates two wrong answers) - Cost: 20 coins
 
-## License
+Hint (Shows helpful hint) - Cost: 30 coins
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Extra Time (+15 seconds) - Cost: 15 coins
 
-## Acknowledgments
-- Material-UI for the component library
-- Framer Motion for animations
-- React team for the amazing framework
+User Experience
 
-## Contact
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter)  
-Project Link: [https://github.com/yourusername/quiz-platform](https://github.com/yourusername/quiz-platform)
+🎨 Professional UI with Material-UI
+
+✨ Smooth Animations with Framer Motion
+
+🎉 Confetti Celebration for Correct Answers
+
+📱 Fully Responsive Design
+
+Data Persistence
+
+💾 IndexedDB for storing quiz attempts
+
+📊 Quiz History Tracking
+
+Technical Stack
+
+React
+
+Material-UI
+
+Framer Motion
+
+Canvas Confetti
+
+IndexedDB
+
+Lucide Icons
+
+Project Structure
+
+Key Components
+
+Quiz Data (quiz-data.js)
+
+Defines subject areas (HTML, CSS, JavaScript)
+
+Contains questions, options, and correct answers
+
+Defines lifeline costs and functionality
+
+Database Management (indexedDB.js)
+
+Handles quiz attempt storage
+
+Manages quiz history
+
+Provides data persistence
+
+Main Application (App.jsx)
+
+Manages quiz state
+
+Handles user interactions
+
+Implements lifeline logic
+
+Controls quiz flow
+
+Features in Detail
+
+1. Quiz Flow
+
+Subject selection
+
+Timed questions
+
+Immediate feedback
+
+Score tracking
+
+History recording
+
+2. Lifeline System
+
+50:50: Eliminates two incorrect options
+
+Hint: Provides a helpful clue
+
+Extra Time: Adds 15 seconds to timer
+
+3. Scoring System
+
+Points for correct answers
+
+Coin rewards
+
+Performance tracking
+
+4. User Interface
+
+Clean, modern design
+
+Responsive layout
+
+Animated transitions
+
+Progress indicators
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/yourusername/quiz-platform.git
+
+Install dependencies:
+
+cd quiz-platform
+npm install
+
+Start the development server:
+
+npm run dev
+
+Usage
+
+Starting a Quiz
+
+Select a subject
+
+Read questions carefully
+
+Answer within time limit
+
+Use lifelines strategically
+
+Using Lifelines
+
+50:50: Eliminates two wrong answers
+
+Hint: Shows helpful hint
+
+Extra Time: Adds 15 seconds
+
+Scoring
+
+Earn coins for correct answers
+
+Use coins for lifelines
+
+Track progress in history
+
+Contributing
+
+Fork the repository
+
+Create your feature branch (git checkout -b feature/AmazingFeature)
+
+Commit your changes (git commit -m 'Add some AmazingFeature')
+
+Push to the branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
+
+License
+
+This project is licensed under the MIT License.
+
+Future Enhancements
+
+Additional subject areas
+
+More question types
+
+Social sharing features
+
+Leaderboard system
+
+Achievement badges
 
